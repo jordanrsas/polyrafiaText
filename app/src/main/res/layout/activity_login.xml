@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesión"
+            android:textColor="#59A1E9"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:drawableEnd="@drawable/user_icon"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/user_icon"
+            android:hint="Usuario"
+            android:maxLines="1"
+            android:padding="8dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/white"
+            android:drawableEnd="@drawable/password_icon"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/password_icon"
+            android:hint="Usuario"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="8dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#C9AD59"
+            android:text="Ingresar"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Polyrafia 2018"
+        android:textColor="@android:color/white"
+        android:textSize="10dp" />
+</LinearLayout>
